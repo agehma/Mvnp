@@ -11,7 +11,7 @@ pipeline
                 {
                     try
                     {
-                        git 'https://github.com/dtamukong/mavenp.git'
+                        git 'https://github.com/agehma/Mvnp.git'
                     }
                     catch(Exception e1)
                     {
@@ -65,7 +65,7 @@ pipeline
                 {
                     try
                     {
-                        git 'https://github.com/dtamukong/FunctionalTestingProf.git'
+                        git 'https://github.com/agehma/Seleniumscript.git'
                         sh 'java -jar /var/lib/jenkins/workspace/PipelineDJ/testing.jar'
                     }
                     catch(Exception e4)
